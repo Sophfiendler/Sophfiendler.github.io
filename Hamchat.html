@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Ham-Chat</title>
+        <style>
+          #hamanimations {
+            width:60%;
+          }
+          @media screen and (max-width: 600px) {
+
+    #boss {
+    position:relative;
+    left:4px;;
+      }
+
+    .wordbanner {
+    position:relative;
+    left:25px;
+
+      }
+
+    #chattext {
+    position:relative;
+    left:25px;
+      }
+
+    #hamanimations {
+    width:90%;
+
+      }
+
+    .hamidle {
+    position:relative;
+      }
+
+    .hamchats {
+    position:relative;
+    right:100px;
+      }
+    #col1 {
+    width:40%;
+
+      }
+
+    #col2 {
+    width:40%;
+    position:relative;
+    left:65px;
+          }
+    #logo {
+      position:relative;
+      left:12px;
+          }
+
+    #colham {
+    width:5%;
+          }
+        }
+          @media all and (max-width: 1200px) { /* screen size until 1200px */
+        p {
+            font-size: 1em; /* 1.5x default size */
+        }
+    }
+    @media all and (max-width: 1000px) { /* screen size until 1000px */
+        p {
+            font-size: 1.0em; /* 1.2x default size */
+            }
+        }
+    @media all and (max-width: 500px) { /* screen size until 500px */
+        p {
+            font-size: 0.8em; /* 0.8x default size */
+            }
+        }
+          </style>
+    </head>
+    <body style="overflow-x:hidden;background-image:url('imgfiles/hamchats/yellowflower.png')">
+        <header>
+        </header>
+          <div class="row row-cols-2">
+            <div class="col-3" style=" height:100%;width:23%; margin-top:5%;margin-right:0%;"><a href="index.html"><img src="imgfiles/navi/logo.png" alt="hamlogo" class="img-fluid" id="logo" ></a>
+
+          <div class="nav nav-pills flex-column mb-auto">
+
+                <a href="About.html">
+                  <img src="imgfiles/navi/about.png" alt="aboutlink" style="height: 40%; width: 40%; position:relative; margin-left: 25%;" class="navilinks">
+                  </a>
+
+                  <img src="imgfiles/navi/hamchatclicked.png" alt="hamchatclicked" style="height: 70%; width: 70%;position:relative;margin-left: 11%;margin-top: 5%;">
+
+                <a href="Hamhams.html">
+                  <img src="imgfiles/navi/hamhams.png" alt="hamhamslink" class="navilinks" style="height: 64%; width: 64%;position:relative;margin-left: 14%;;margin-top: 5%;">
+                </a>
+                <img src ="imgfiles/hamchats/penandpash.png" alt="pashminandpenelope" class="img-fluid" style="margin-left:10%;display:block; height:70%; width:70%;">
+              </div>
+          </div>
+          <div class="container" style="margin-top:2%;width:50%; position:relative; margin-left:0;">
+
+            <img src="imgfiles/hamchats/hamhamwords.png" class="img-fluid wordbanner" style="position:relative;" alt="wordsbanner">
+            <p id="chattext" style="/*make rounded border*/border-radius: 20px;width: auto;height: auto;padding: 5px 30px 5px 30px;
+    background-color:#ffbd22; color:#7f0000;">The Ham-Hams have their own unique language - do you know how to speak Ham-Ham?!
+             Study the words on this page, and be ready to use your new vocabulary
+             you'll need it when the new Hamtaro game for Game Boy appears!<div class="col-sm-3" style="width:120%;"><img src="imgfiles/hamchats/boss.gif"
+              style="height:80%; width:40%; position:relative; right:8%;" class="img-fluid" id="boss" alt="bossgif"></div>
+             <br>
+          </div>
+        </div>
+
+             <div class="container" id="hamanimations" style="margin-right:15%;">
+              <p style="position:relative; right:12%;/*make rounded border*/border-radius: 20px;width: auto;height: auto;padding: 5px 30px 5px 30px;
+    background-color:#ffbd22;color:#7f0000;" class="wordbanner"><strong>Hamha!</strong> = "Hello!" <strong>Frost-T</strong> = "Freezing"
+    <strong>Bye-Q</strong> = "Bye" <br><strong>Koochi-Q</strong> = "Cute" <strong>Zuzuzu</strong> = "Sleep" <strong>Nokrmp-P</strong> = "Hungry"<br>
+    <strong>Click on any button to see a demonstration!</strong></p>
+              <p></p>
+              <div class="row align-items-start">
+                <div class="col-3" style="" id="col1">
+                  <button id="btn">Hamha!</button> <br>
+                  <br>
+                  <button id="btn">Bye-Q</button> <br>
+                  <br>
+                  <button id="btn">Zuzuzu</button> <br>
+                  <br>
+                </div>
+                <div class="col-3" id="colham">
+                  <img src="imgfiles/hamchats/idle.png" id="idle" class = "hamidle" alt="idle">
+                  <img src="imgfiles/hamchats/frost-t.gif" id="frost-t" class = "hamchats" alt="frostt">
+                  <img src="imgfiles/hamchats/koochi-q.gif" id="koochi-q" class = "hamchats" alt="koochiq">
+                  <img src="imgfiles/hamchats/hamha.gif" id="hamha" class = "hamchats" alt="hamha">
+                  <img src="imgfiles/hamchats/bye-q.gif" id="bye-q" class = "hamchats" alt="byeq">
+                  <img src="imgfiles/hamchats/zuzu.gif" id="zuzu" class = "hamchats" alt="zuzuzu">
+                  <img src="imgfiles/hamchats/nokrmp-P.gif" id="nokrmp-p" class = "hamchats" style="position:relative; top:20px;" alt="nokrmpp">
+                </div>
+                <div class="col-3" id="col2" style="">
+                  <button id="btn">Frost-T</button><br>
+                  <br>
+                  <button id="btn">Koochi-Q</button> <br>
+                  <br>
+                  <button id="btn">Nokrmp-P</button> <br>
+                </div>
+             </div>
+        </div>
+        <div>
+        </div>
+        <script>
+        let y = document.querySelectorAll('button');
+        y.forEach(button => {
+        button.addEventListener('click', () => {
+        let choice = button.innerHTML;
+        switch (choice) {
+        case "Hamha!":
+            hide();
+            document.getElementById("hamha").style.display = "block";
+         break;
+        case "Bye-Q":
+            hide();
+            document.getElementById("bye-q").style.display = "block";
+        break;
+      case "Zuzuzu":
+        hide();
+        document.getElementById("zuzu").style.display = "block";
+        break;
+      case "Koochi-Q":
+        hide();
+        document.getElementById("koochi-q").style.display = "block";
+        break;
+      case "Nokrmp-P":
+        hide();
+        document.getElementById("nokrmp-p").style.display = "block";
+        break;
+      case "Frost-T":
+        hide();
+        document.getElementById("frost-t").style.display = "block";
+        break;
+    }
+  });
+});
+function hide(){
+    document.getElementById("hamha").style.display = "none";
+    document.getElementById("idle").style.display = "none";
+    document.getElementById("bye-q").style.display = "none";
+    document.getElementById("zuzu").style.display = "none";
+    document.getElementById("koochi-q").style.display = "none";
+    document.getElementById("frost-t").style.display = "none";
+    document.getElementById("nokrmp-p").style.display = "none";
+}
+        </script>
+    </body>
+</html>

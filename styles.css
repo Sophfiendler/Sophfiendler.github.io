@@ -1,0 +1,135 @@
+.header {
+    position: relative;
+    text-align: center
+}
+
+audio {
+    display:none;
+}
+
+header{
+    text-align: center;
+}
+
+.chatlink{
+    height: 60px;
+        width: 240px;
+        position: relative;
+        display: block;
+        left:400px;
+        bottom: 180px;
+}
+
+.aboutlink{
+    height: 60px;
+        width: 150px;
+        position: relative;
+        display: block;
+        left:450px;
+        bottom: 190px;
+}
+
+.indexlink{
+    width:32%;
+    height:32%;
+    position:relative;
+    margin-left:50%;
+    margin-top:1%;
+}
+
+.indexlink:hover {
+    transform: scale(1.2);
+}
+.aboutlink:hover {
+    transform: scale(1.5);
+}
+.chatlink:hover {
+    transform: scale(1.5);
+}
+.hamlink:hover {
+    transform: scale(1.5);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: absolute
+    top: 17px;
+    left: 20px;
+    color: white;
+    background-color:pink;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.container1{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.0em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.8em; /* 0.8x default size */
+        }
+    }
+
+.aboutheader{
+    position: relative;
+    right: 300px;
+    top:50px;
+}
+
+#hamha, #zuzu, #bye-q, #koochi-q, #frost-t{
+    display: none;
+}
+#nokrmp-p{
+    display: none;
+    width: 80px;
+    height: 80px;
+
+}
+.hamchats{
+
+    left:27%;
+    width: 100px;
+    height: 100px;
+    position:relative;
+}
+.hamidle
+{
+    width: 100px;
+    height: 100px;
+position:relative;
+}
+.navilinks:hover{
+
+    transform: scale(1.5);
+}
+#btn:hover{
+
+    transform: scale(1.2);
+}
+
+#btn{
+    background-image:url("imgfiles/hamchats/button.png");
+    border-color: white;
+    background-size:cover;
+    color: #a70000;
+    cursor: pointer;
+    font-weight:bold;
+}
